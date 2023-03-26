@@ -1,0 +1,10 @@
+{
+  "enemy": [
+    {
+      "name": "Deborah kanker",
+      "isAlive": true,
+      "LifePoints": 100,
+      "attacks": ["atack1", "attack2", "attack3", "attack4"]
+    }
+  ]
+}
