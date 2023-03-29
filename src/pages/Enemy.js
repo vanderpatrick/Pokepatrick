@@ -1,12 +1,10 @@
-const Enemy = ({enemy, title}) => {
+const Enemy = ({ enemy }) => {
   return (
     <div>
-        {enemy.map((stats) => (
-        <div className="blog-preview" key={stats.id}>
-          <h2>{stats.name}</h2>
-          <p>Written by: {stats.LifePoints}</p>
-        </div>
-      ))}
+      <div className="blog-preview" key={enemy.id}>
+        <h2>{enemy.name}</h2>
+        <p>{enemy.LifePoints}</p>
+      </div>
     </div>
   );
 };
