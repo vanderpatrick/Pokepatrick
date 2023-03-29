@@ -1,10 +1,10 @@
 {
   "enemy": {
-      "id": 1,
-      "name": "Deborah",
-      "isAlive": true,
-      "LifePoints": 100,
-      "attacks": ["attack1", "attack2", "attack3", "attack4"]
+    "id": 1,
+    "name": "Deborah",
+    "isAlive": true,
+    "LifePoints": 100,
+    "attacks": ["attack1", "attack2", "attack3", "attack4"]
   },
   "Player": {
     "name": "Patrick Alexander",
